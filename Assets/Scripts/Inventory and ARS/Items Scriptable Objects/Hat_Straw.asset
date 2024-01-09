@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 141d2f19702174746b9d067a9b22f470, type: 3}
+  m_Name: Hat_Straw
+  m_EditorClassIdentifier: 
+  _name: Sturdy Hat
+  description: A nice vintage Fedora
+  visual: {fileID: 21300000, guid: 53e7bb3441d22144c9229d6f391f9c3e, type: 3}
+  prefab: {fileID: 1446520290241530022, guid: e47d1d603e6f7de498727aba1230cd7d, type: 3}
+  stackable: 0
+  maxStack: 0
+  itemType: 1
+  equipmentType: 0
