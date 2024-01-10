@@ -6,6 +6,10 @@
 
 WIP
 
+# Trello
+
+https://trello.com/b/WmhNE5XS/archeoquest
+
 # External Ressources
 
 This project uses a combination of these assets and tutorials :
