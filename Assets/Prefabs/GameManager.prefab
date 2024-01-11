@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3420400520847075574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7903314813470845287}
+  - component: {fileID: 1677445061824057443}
+  - component: {fileID: 7837434567472475608}
+  - component: {fileID: 6674542438819757443}
+  - component: {fileID: 7880997186728862705}
+  - component: {fileID: 5173980160691053588}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7903314813470845287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420400520847075574}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5720768, y: 2.4248447, z: 2.9534225}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1677445061824057443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420400520847075574}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b219ef659db3cb44ea256d8b74df67c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 4906675664428430588, guid: 5c346624261e05a42a07f8d4d99d31f1, type: 3}
+  zombiePrefabs:
+  - {fileID: 4906675664428430588, guid: 5c346624261e05a42a07f8d4d99d31f1, type: 3}
+  - {fileID: 1453175197698715423, guid: 2fe15f0765effa945ae0e6a5c22752d4, type: 3}
+  - {fileID: 4906675664428430588, guid: 5c346624261e05a42a07f8d4d99d31f1, type: 3}
+  _spawnPoint: {fileID: 0}
+  _secondarySpawnPoint: {fileID: 0}
+  _nombreDeZombies: 5
+  _projectilePrefab: {fileID: 341184191270730901, guid: 10beaa724540c7f4a9d8c8899061c41f,
+    type: 3}
+  _actionSpawnZombies: {fileID: -4065563901331367934, guid: 4419d82f33d36e848b3ed5af4c8da37e,
+    type: 3}
+--- !u!114 &7837434567472475608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420400520847075574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57bfe165f5d179d4ab5ca8c006a4147d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tooltip: {fileID: 0}
+--- !u!114 &6674542438819757443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420400520847075574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcb9af8871c51dd40a63359da9298f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content:
+  - itemData: {fileID: 11400000, guid: cea7d2f00771ec944848e0f126cbe2d4, type: 2}
+    itemPrefab: {fileID: 0}
+  - itemData: {fileID: 11400000, guid: df2c12c4059bd5d40b7cf97c655a95a0, type: 2}
+    itemPrefab: {fileID: 0}
+  - itemData: {fileID: 11400000, guid: 387098b052678d94f9eb3fa026f88892, type: 2}
+    itemPrefab: {fileID: 0}
+--- !u!114 &7880997186728862705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420400520847075574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8df5c27f803d2543a846b1a5a21b55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableArtefacts:
+  - {fileID: 11400000, guid: cfbde1b424c0afc4bb3728abd55d9bc0, type: 2}
+  - {fileID: 11400000, guid: 546634fbdcd4db04c9642544d02ff888, type: 2}
+  - {fileID: 11400000, guid: 2e7b63b284f03644eb08a3a196d05ccd, type: 2}
+  artefactUIPrefab: {fileID: 6708623276441839167, guid: a56c3b4f1dfb3b14597f646c112be519,
+    type: 3}
+  artefactsParent: {fileID: 0}
+  openCraftPanelInput: 99
+  craftPanel: {fileID: 0}
+  selectInputSource:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select Input Source
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 639f9100-5653-425b-b89f-bb2d785ed7c3
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 11711766586467970, guid: e0ca4504471ca124088e1e2cfe6804ae,
+      type: 3}
+--- !u!114 &5173980160691053588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3420400520847075574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f71ff8854e65a8148b3c5a9d1a2a01e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipment: {fileID: 0}
+  playerTransform: {fileID: 0}
+  newPlayerTransform: {fileID: 0}

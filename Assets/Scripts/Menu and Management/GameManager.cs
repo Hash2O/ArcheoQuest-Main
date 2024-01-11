@@ -18,9 +18,10 @@ public class GameManager : MonoBehaviour
     //Wave of zombies
     [SerializeField] private int _nombreDeZombies;
 
+
     [SerializeField] private GameObject _projectilePrefab;
 
-    private float spawnRangeX = 50;
+    private float spawnRangeX = 50f;
 
     //private float startDelay = 2.0f;
     //private float repeatRate = 10.0f;

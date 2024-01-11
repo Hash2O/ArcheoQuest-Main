@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 141d2f19702174746b9d067a9b22f470, type: 3}
+  m_Name: Ostracon
+  m_EditorClassIdentifier: 
+  _name: Ostracon
+  description: "Un tesson de poterie ou un \xE9clat de calcaire utilis\xE9 comme
+    support d'\xE9criture."
+  visual: {fileID: 21300000, guid: bd2f605ac76706d4c9b6f87184f96b69, type: 3}
+  prefab: {fileID: 5654653184994309896, guid: e55e8514c2e3424439bbdd800da34dee, type: 3}
+  stackable: 1
+  maxStack: 5
+  itemType: 0
+  equipmentType: 2

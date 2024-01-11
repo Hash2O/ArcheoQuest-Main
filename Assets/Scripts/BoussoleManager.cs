@@ -6,7 +6,7 @@ public class BoussoleManager : MonoBehaviour
 {
     [SerializeField] Transform orientation;
     [SerializeField] APIManager apiManager;
-    private float yAxis;
+    private static float yAxis;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +17,7 @@ public class BoussoleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float yAxis = apiManager.DirectionVent;
+        yAxis = apiManager.DirectionVent;
         //transform.LookAt(orientation.transform);
         if(yAxis != 0f)
         {
