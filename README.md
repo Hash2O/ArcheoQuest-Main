@@ -1,17 +1,20 @@
-# VR-Game-Jam-Template
- Starter Project using Unity XR Toolkit created for VR Jam 2023
+# VR-Project-ArcheoQuest
+
+ VR Project using Unity XR Toolkit, created for Simplon 2024
 
 # Learn More About This Project
-[<img src="https://i.ytimg.com/vi/apnfGuMI0Dc/maxresdefault.jpg" width="50%">](https://youtu.be/apnfGuMI0Dc)
 
-https://youtu.be/apnfGuMI0Dc
+WIP
+
+# Trello
+
+https://trello.com/b/WmhNE5XS/archeoquest
 
 # External Ressources
+
 This project uses a combination of these assets and tutorials :
 
-https://youtu.be/6OT43pvUyfY
-
-https://youtu.be/JCyJ26cIM0Y
+https://www.youtube.com/watch?v=apnfGuMI0Dc&list=RDCMUC-BligqNSwG0krJDfaPhytw&index=2
 
 https://kenney.nl/assets?q=audio
 
