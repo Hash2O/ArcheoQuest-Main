@@ -4,6 +4,12 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
+/*
+ * 
+ * Pick up system with headset pointing raycast and controller's input to collect item in front of the player
+ * 
+ */
+
 public class PickupItem : MonoBehaviour
 {
     [SerializeField]
@@ -25,9 +31,8 @@ public class PickupItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit hit;
 
-        if(Physics.Raycast(transform.position, transform.forward, out hit, pickupRange, layerMask))
+        if(Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, pickupRange, layerMask))
         {
             interactionText.gameObject.SetActive(true);
 
@@ -38,7 +43,8 @@ public class PickupItem : MonoBehaviour
 
             if (isGrabButtonPressed)
             {
-                Debug.Log("This object has a Item Component ? : " + hit.transform.gameObject.GetComponent<Item>().item);
+                //true or false
+                Debug.Log("This object has an Item Component ? : " + hit.transform.gameObject.GetComponent<Item>().item);
             }
 
         }

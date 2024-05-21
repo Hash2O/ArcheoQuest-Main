@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static Unity.VisualScripting.Metadata;
+//using static Unity.VisualScripting.Metadata;
 
 public class BoatLightsManager : MonoBehaviour
 {

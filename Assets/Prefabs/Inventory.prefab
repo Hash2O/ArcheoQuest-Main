@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1167524455647218130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000650342112150038}
+  - component: {fileID: 4545659027600823140}
+  - component: {fileID: 2627983503108943097}
+  - component: {fileID: 2198401467408977979}
+  m_Layer: 0
+  m_Name: Inventory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000650342112150038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167524455647218130}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4545659027600823140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167524455647218130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba88d76e3a2955045aab2ce6798d86c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipment: {fileID: 2627983503108943097}
+  reconstructionSystem: {fileID: 0}
+  itemInteractionsSystem: {fileID: 2198401467408977979}
+  content: []
+  selectInputSource:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select Input Source
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e62fd219-055f-4261-8b82-59aa303e1818
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  inventoryPanel: {fileID: 0}
+  inventorySlotParent: {fileID: 0}
+  emptySlotVisual: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!114 &2627983503108943097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167524455647218130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dcd7ceafbea69a45b7aa03c83365b40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemInteractionsSystem: {fileID: 2198401467408977979}
+  equipmentLibrary: {fileID: 0}
+  headSlotImage: {fileID: 0}
+  chestSlotImage: {fileID: 0}
+  handsSlotImage: {fileID: 0}
+  legsSlotImage: {fileID: 0}
+  feetSlotImage: {fileID: 0}
+  equipedHeadItem: {fileID: 0}
+  equipedChestItem: {fileID: 0}
+  equipedHandsItem: {fileID: 0}
+  equipedLegsItem: {fileID: 0}
+  equipedFeetItem: {fileID: 0}
+  headSlotRemoveEquipmentButton: {fileID: 0}
+  chestSlotRemoveEquipmentButton: {fileID: 0}
+  handsSlotRemoveEquipmentButton: {fileID: 0}
+  legsSlotRemoveEquipmentButton: {fileID: 0}
+  feetSlotRemoveEquipmentButton: {fileID: 0}
+--- !u!114 &2198401467408977979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167524455647218130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7b599bfb7dc224d96620ed0422fee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipment: {fileID: 2627983503108943097}
+  actionPanel: {fileID: 0}
+  dropPoint: {fileID: 0}
+  useItemButton: {fileID: 0}
+  equipItemButton: {fileID: 0}
+  dropItemButton: {fileID: 0}
+  destroyItemButton: {fileID: 0}
+  itemCurrentlySelected: {fileID: 0}

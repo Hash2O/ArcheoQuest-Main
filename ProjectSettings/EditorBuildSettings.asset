@@ -6,15 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/The Trapped Labyrinth Menu.unity
-    guid: a7ec4f97d643d1249a418f988ff8f586
-  - enabled: 1
     path: Assets/Scenes/The Trapped Labyrinth.unity
     guid: 668bca0ef82607f43933add9bbcb2d10
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2238d457089b9494896515a25debf01c,
       type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d50b832171a149b4592811769ffb5514,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 190512a7e4be0f14db892b11a5973b9a,
       type: 2}
